@@ -1,0 +1,19 @@
+Lunar Terrain Analysis Report
+=============================
+
+Generated: 2025-07-07 13:55:32
+
+Boulders detected: 263
+Landslides detected: 32
+
+Top 5 Largest Boulders:
+1. Area: 3920.00 m², Radius: 35.32 m
+2. Area: 3552.00 m², Radius: 33.62 m
+3. Area: 3296.00 m², Radius: 32.39 m
+4. Area: 3040.00 m², Radius: 31.11 m
+5. Area: 3008.00 m², Radius: 30.94 m
+
+Top 3 Largest Landslides:
+1. Area: 1621521.00 m², Length: 0.00 m
+2. Area: 155575.00 m², Length: 0.00 m
+3. Area: 21312.00 m², Length: 0.00 m

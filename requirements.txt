@@ -1,0 +1,28 @@
+# Core scientific & image processing
+numpy
+scipy
+opencv-python
+pillow
+scikit-image
+scikit-learn
+matplotlib
+
+# Geospatial and raster handling
+rasterio
+pyproj
+shapely
+
+# Deep learning
+torch
+torchvision
+tqdm
+
+# Logging and utilities
+loguru
+
+# Optional: for model saving & data handling
+h5py
+
+imagecodecs
+
+

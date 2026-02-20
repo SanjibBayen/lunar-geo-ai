@@ -1,0 +1,33 @@
+<VRTDataset rasterXSize="4000" rasterYSize="190796">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unknown",GEOGCS["unknown",DATUM["unknown",SPHEROID["unknown",1737400,0]],PRIMEM["Reference meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-71],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform> -5.8767989999999998e+01,  4.5493361000000003e-02,  0.0000000000000000e+00, -6.4011018000000007e+01,  0.0000000000000000e+00, -1.3291464181639022e-04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">ch2_tmc_ncn_reproj_byte.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4000" RasterYSize="190796" DataType="Byte" BlockXSize="4000" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+      <DstRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">ohrc_resampled.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4000" RasterYSize="190796" DataType="Byte" BlockXSize="4000" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+      <DstRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>-32768</NoDataValue>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">dtm_resampled.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4000" RasterYSize="190796" DataType="Byte" BlockXSize="4000" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+      <DstRect xOff="0" yOff="0" xSize="4000" ySize="190796" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
